@@ -1,0 +1,83 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fff;
+}
+
+
+header {
+    background-image: linear-gradient(to left, rgb(0, 51, 3), rgb(0, 128, 77));
+    color: #ffffff;
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+header h1 {
+    font-size: 24px;
+    margin: 0;
+}
+
+header p {
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    text-align: center;
+    transition: transform 0.4s;
+    margin: 0;
+}
+
+header a {
+    color: inherit;
+    text-decoration: none;
+}
+
+header p:hover {
+    text-decoration: underline;
+    transform: scale(1.1);
+}
+
+
+.input-group, .output-group {
+    margin: 20px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.input-group input {
+    display: block;
+    margin: 0 auto;
+}
+
+.output-group div {
+    margin-bottom: 10px;
+}
+
+#webcam-container img {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+}
+
+#label-container div {
+    margin-bottom: 5px;
+}
+
+#label-container div:last-child {
+    margin-bottom: 0;
+    font-size: 1.2em;
+    color: rgb(0, 51, 3);
+}
+
+.footer {
+    text-align: center;
+    padding: 20px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-image: linear-gradient(to left, rgb(0, 51, 3), rgb(0, 128, 77));
+    color: #fff;
+}
